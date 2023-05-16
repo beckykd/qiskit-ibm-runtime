@@ -35,6 +35,10 @@ This primitive takes a user circuit as input and returns a quasiprobability dist
 over the measurement outcomes. This generalizes histograms from quantum circuits to allow
 for error mitigation of readout.
 
+**Session**
+
+A session ensures that a collection of jobs can be grouped and jointly prioritized by the quantum computer’s job scheduler. This eliminates artificial delays caused by other users’ jobs running on the same quantum device during the session time.
+
 
 
 Next steps
